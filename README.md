@@ -16,3 +16,11 @@ Use any standard C compiler (like GCC):
 ```bash
 gcc encrypt.c -o encrypt
 gcc decrypt.c -o decrypt
+```
+
+## Usage
+```bash
+./encrypt <input.txt> <encryptedfile.txt> <hash key>
+```
+
+
